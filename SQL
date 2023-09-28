@@ -1,0 +1,17 @@
+CREATE DATABASE kitm
+
+
+
+CREATE TABLE automobiliai (
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    marke varchar(50) NOT NULL,
+    modelis varchar(50) NOT NULL,
+    valstybe varchar(50) NOT NULL,
+    pagaminimo_metai INT NOT NULL,
+    kebulo_tipas varchar(50) NOT NULL,
+    transmisijos_tipas varchar(50) NOT NULL,
+    kuro_sanaudos varchar(50) NOT NULL,
+    pilna_kaina varchar(50) NOT NULL,
+    kaina_isimoketinai varchar(50) NOT NULL,
+    likutine_verte varchar(50) NOT NULL
+);
